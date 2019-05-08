@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2e2e42;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 640px;
+  margin: 24px auto;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 40px;
+  margin:40px auto;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  margin: 10px 0;
+  color: #323248db;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 10px 0px;
+  color: #323248db;
+}
+
+img {
+  width: 240px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #e9612a;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 28px;
+}
+
+.btn-orange {
+  background-color: #e9612a;
+  color: white;
+  padding: 16px 8px;
+  margin: 24px auto;
+  display: block;
+  width: 240px;
+  border-radius: 4px;
+}
+
+.btn-orange:hover {
+  background-color: #e24809de;
+  color: white;
+  text-decoration: none;
+}
+
